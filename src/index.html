@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TensorFlow: COVID-19 HEROES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Machine Learning For COVID-19 HEROES." />
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <main role="main" class="container">
+      <div class="jumbotron">
+        <h1 class="display-4"><strong>COVID-19 HEROES</strong></h1>
+        <p class="lead text-danger">
+          This System Predicts the Heroes Of COVID-19 (Doctors, Police). Also,
+          Villain Corona Virus:)
+        </p>
+        <hr class="my-4" />
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="progress progress-bar progress-bar-striped progress-bar-animated mb-2"
+            >
+              Loading Model
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="custom-file">
+              <input
+                type="file"
+                class="custom-file-input"
+                id="image-selector"
+              />
+              <label class="custom-file-label" for="customFile"
+                >Choose Image (Doctor, Police, Corona Virus)</label
+              >
+            </div>
+          </div>
+          <div class="col-6">
+            <button id="predict-button" class="btn btn-info btn-lg float-right">
+              Predict
+            </button>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-6">
+            <h2 class="ml-3">Image</h2>
+            <img id="selected-image" class="ml-3" width="250" alt="" />
+          </div>
+          <div class="col-6">
+            <h2 class="ml-3">Predictions</h2>
+            <h3>
+              <ul id="prediction-list"></ul>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="../js/tf.min.js"></script>
+    <script src="../js/target_tags.js"></script>
+    <script src="../js/predict.js"></script>
+  </body>
+</html>
