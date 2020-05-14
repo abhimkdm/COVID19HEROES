@@ -1,8 +1,10 @@
-# NotesApp
+# COVID19HEROES
 
-This example shows the example of [Microsoft Azure Custom Vision](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/)
+This example shows how to use 
 
-[tensorflow](https://js.tensorflow.org/api/1.7.2/).
+[Microsoft Azure Custom Vision](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/)
+
+[TnsorFlow](https://js.tensorflow.org/api/1.7.2/).
 
 ## Download below for Windows
 
