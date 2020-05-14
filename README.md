@@ -29,3 +29,6 @@ Run `npm install` it will load basic necessary packages into the project, All th
 ```sh
 $ node server.js
 ```
+
+## Sample Photo
+![](SamplePhoto.PNG)
