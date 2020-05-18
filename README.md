@@ -31,4 +31,4 @@ $ node server.js
 ```
 
 ## Sample Photo
-![](SamplePhoto.PNG)
+![](Preview.PNG)
