@@ -50,15 +50,34 @@
         <div class="row">
           <div class="col-6">
             <h2 class="ml-3">Image</h2>
-            <img id="selected-image" class="ml-3" width="250" alt="" />
+            <img
+              id="selected-image"
+              class="ml-3"
+              width="300"
+              height="250"
+              alt=""
+            />
           </div>
           <div class="col-6">
             <h2 class="ml-3">Predictions</h2>
             <h3>
-              <ul id="prediction-list"></ul>
+              <div
+                id="preLoader"
+                style="padding-left: 50px; padding-top: 20px;"
+              >
+                <div
+                  class="spinner-grow text-info"
+                  style="width: 5rem; height: 5rem;"
+                  role="status"
+                >
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+              <ul id="prediction-list" class="list-group list-group-flush"></ul>
             </h3>
           </div>
         </div>
+        <p class="font-weight-bold text-right">© Abhishek Kadam</p>
       </div>
     </main>
 
